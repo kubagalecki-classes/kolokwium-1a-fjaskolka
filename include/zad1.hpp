@@ -8,7 +8,7 @@ Class Makaron
 {
   public:
   virtual double ileMaki(unsigned) const = 0;
-  static Makaron* gotujMakaron(const std::string&n)
+  static Makaron* gotujMakaron(const std::string& n)
 };
 
 // Zad1
