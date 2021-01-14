@@ -24,5 +24,5 @@ if (M<=50)
 {
   throw M;
 }
-
+return M;
 }
