@@ -5,7 +5,7 @@
 #include <type_traits>
 
 // tutaj klasa Penne
-class Penne: public
+class Penne: public Makaron
 {
   public:
   double ileMaki(unsigned P) const
@@ -15,11 +15,11 @@ class Penne: public
 };
 // tutaj definicja metody gotujMakaron
 
-inline Makaron* Makaron::gotujMakaron(const std::string& n)
+inline Makaron* Makaron::gotujMakaron(const std::string& a)
 {
-  if(n.front()==n.back())
+  if(a.front() == a.back())
   {
-    return new Tagliatelle(3.14,0.42,0.1);
+    return new Tagliatelle(3.14, 0.42, 0.1);
   }
   else
   {

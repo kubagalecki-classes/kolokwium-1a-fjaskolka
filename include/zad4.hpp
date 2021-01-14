@@ -6,11 +6,11 @@
 double obliczMake(std::vector<Tagliatelle> v)
 {
   double M = 0;
-  int a=1;
+  int licz=1;
   for(size_t i = v.size()-1; i >= 0; --i)
   {
-    M = M + v[i].ileMaki(a);
-    a++;
+    M = M + v[i].ileMaki(licz);
+    licz++;
   }
 if (M>100)
 {
