@@ -15,7 +15,7 @@ class Penne: public
 };
 // tutaj definicja metody gotujMakaron
 
-inline Makaron* Makaron::gotujMakaron(const std::string n)
+inline Makaron* Makaron::gotujMakaron(const std::string& n)
 {
   if(n.front()==n.back())
   {
